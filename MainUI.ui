@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CanSatGUI</class>
+ <widget class="QWidget" name="CanSatGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="PlotWidget" name="graphWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>20</y>
+     <width>351</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send Data </string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="PathLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>40</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BrowseButton">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>30</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendPathButton">
+   <property name="geometry">
+    <rect>
+     <x>1330</x>
+     <y>30</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send Path</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>750</y>
+     <width>1001</width>
+     <height>291</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="check_ports_button">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Chechk Ports</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sendport_button">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>30</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select Port</string>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>110</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>110</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1420</x>
+     <y>110</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>270</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget9" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>430</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget13" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>590</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget6" native="true">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>270</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget7" native="true">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>270</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget8" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1420</x>
+     <y>270</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget10" native="true">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>430</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget11" native="true">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>430</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget12" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1420</x>
+     <y>430</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget14" native="true">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>590</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget15" native="true">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>590</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PlotWidget" name="graphWidget16" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1420</x>
+     <y>590</y>
+     <width>441</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sim_toggle_button">
+   <property name="geometry">
+    <rect>
+     <x>1570</x>
+     <y>30</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SIM TOGGLE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mqtt_toggle_button">
+   <property name="geometry">
+    <rect>
+     <x>1680</x>
+     <y>30</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MQTT TOGGLE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="send_simdata_button">
+   <property name="geometry">
+    <rect>
+     <x>1570</x>
+     <y>80</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send SIM Data</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox2">
+   <property name="geometry">
+    <rect>
+     <x>1880</x>
+     <y>410</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reset_button">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>760</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RESET</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_command">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>20</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QWidget</extends>
+   <header>pyqtgraph</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

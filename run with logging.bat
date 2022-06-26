@@ -1,0 +1,1 @@
+py .\UserGraphics.py > log.txt 2>&1

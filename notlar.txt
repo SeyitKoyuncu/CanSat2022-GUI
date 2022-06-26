@@ -1,0 +1,3 @@
+**************THREADİNG**************
+
+thread.join anlamadım
